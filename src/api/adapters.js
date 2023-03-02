@@ -17,7 +17,7 @@ export const getNewsList = apiResponse => {
   return adaptedNewsList;
 };
 
-export const getNewsDetils = apiResponse => {
+export const getNewsDetails = apiResponse => {
   if (!apiResponse || !apiResponse.response) {
     return {};
   }
