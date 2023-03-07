@@ -10,7 +10,7 @@ export const FavoritesProvider = props => {
 
   const favoritesContextValue = {
     favoritesState: state,
-    favortiesDispatch: dispatch,
+    favoritesDispatch: dispatch,
   };
 
   return (
