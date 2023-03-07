@@ -47,6 +47,13 @@ function Header() {
                   Fotbal
                 </Link>
               </li>
+              <li>
+                <Link
+                  to='/category/games'
+                  className='p-3 text-uppercase text-light'>
+                  Games
+                </Link>
+              </li>
               <li className={isDisplayed ? "container" : null}>
                 <Link to='/favorites' className='p-3 text-uppercase text-light'>
                   Favorite

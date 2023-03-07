@@ -25,6 +25,10 @@ export function NewsCategory() {
       title = "Fotbal";
       break;
     }
+    case "games": {
+      title = "Games";
+      break;
+    }
     default: {
       break;
     }
