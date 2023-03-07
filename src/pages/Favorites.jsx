@@ -11,7 +11,11 @@ export function Favorites() {
     <Layout>
       <Container className='my-5'>
         <h1 className='my-5'>Știrile tale favorite</h1>
-        <NewsCardList newsList={favoritesState.news} />
+        {favoritesState.news.length === 0 ? (
+          <p>Momentan nu ai nici o știre favorită</p>
+        ) : (
+          <NewsCardList newsList={favoritesState.news} />
+        )}
       </Container>
     </Layout>
   );
