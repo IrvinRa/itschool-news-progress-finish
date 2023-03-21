@@ -1,6 +1,4 @@
-//Important!
-//Nu e safe sa lasi keys aici
-const API_KEY = "27483dee-88b3-4fec-a213-61e3c62f5f54";
+const API_KEY = "d00fce8f-06ad-472a-8e13-3dfd1a36fdb4";
 
 export const getNewsCategoriesEndpoint = (
   category,
